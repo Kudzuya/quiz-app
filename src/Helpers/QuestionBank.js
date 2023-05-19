@@ -1,0 +1,60 @@
+export const Questions = [
+    {
+        prompt: "What is the name of the World's largest ocean?",
+        optionA: 'Arctic Ocean',
+        optionB: 'Atlantic Ocean',
+        optionC: 'Indian Ocean',
+        optionD: 'Pacific Ocean',
+        answer: "D",
+    },
+    {
+        prompt: "Capital of France?",
+        optionA: 'Eifel tower',
+        optionB: 'Paris',
+        optionC: 'Erevan',
+        optionD: 'London',
+        answer: "B",
+    },
+    {
+        prompt: "Which monarch officially made Valentine's Day a holiday in 1537?",
+        optionA: 'Henry VIII',
+        optionB: 'Peter II',
+        optionC: 'Harry V',
+        optionD: 'Elizabeth I',
+        answer: "A",
+    },
+    {
+        prompt: "How many years do rhinos live?",
+        optionA: '30-35',
+        optionB: '20-25',
+        optionC: '15-20',
+        optionD: '40-45',
+        answer: "D",
+    },
+    {
+        prompt: "Who discovered that the earth revolves around the sun?",
+        optionA: 'Nicolaus Copernicus',
+        optionB: 'Albert Einstein',
+        optionC: 'Collambus',
+        optionD: '42',
+        answer: "A",
+    },
+    {
+        prompt: "What is cynophobia?",
+        optionA: 'Fear of dogs',
+        optionB: 'Fear of sharks',
+        optionC: 'Fear of humans',
+        optionD: 'Fear of spiders',
+        answer: "A",
+    },
+    {
+        prompt: "What is the name of the man who launched eBay back in 1995",
+        optionA: 'Alex Salmon',
+        optionB: 'Sawand Kepire',
+        optionC: 'Pierre Omidyar',
+        optionD: 'Vasiliy Berezkin',
+        answer: "C",
+    },
+
+
+]

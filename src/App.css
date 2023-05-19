@@ -1,0 +1,59 @@
+.App{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Menu , .Quiz, .EndScreen{
+  width: 500px;
+  height: 600px;
+  border-radius: 15px;
+  background-color: rgb(182, 220, 174);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.Menu button, .Quiz button, .EndScreen button{
+  width: 300px;
+  height: 40px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: azure;
+  color: rgb(39, 158, 9);
+}
+.Quiz button:focus{
+    background: rgb(149, 255, 153);
+    transition: ease-in-out 0.4s;
+}
+
+.Quiz button:active {
+  background: rgb(0, 255, 60);
+  transition: ease-in-out 0.4s;
+}
+
+#sub:focus{
+  background: azure;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Quiz h1{
+  padding: 15px;
+  text-align: center;
+}
+
